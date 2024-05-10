@@ -1,0 +1,352 @@
+:root {
+  --white-color: #fff;
+  --blk-color: #000;
+  --font-nunito: "Nunito+Sans", sans-serif;
+}
+body {
+  font-family: var(--font-nunito);
+  color: var(--blk-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.main-wrapper {
+  width: 1600px;
+  max-width: 100%;
+  position: relative;
+}
+.hero-wrapper {
+  width: 1600px;
+  max-width: 100%;
+  background-image: url(/images/rechtanlage.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 0;
+  border-left: 2px dotted #dae952;
+}
+
+.bg-image {
+  position: absolute;
+  top: 130px;
+  right: 200px;
+  border-radius: 100%;
+}
+.header-section {
+  display: flex;
+  justify-content: center;
+}
+.header-section .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.logo {
+  display: flex;
+  gap: 20px;
+}
+.logo h3 {
+  font-size: 26px;
+}
+.logo span {
+  color: #dae952;
+  text-decoration: overline;
+}
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 30px 0 0 0;
+}
+.nav-links a {
+  text-decoration: none;
+  font-weight: 600;
+  font-family: var(--font-nunito);
+  color: var(--blk-color);
+  font-size: 18px;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #dae952;
+}
+.contact-header {
+  margin: 20px 40px 0 0;
+  display: flex;
+  gap: 20px;
+}
+.nav-btn {
+  padding: 10px 40px;
+  font-size: 18px;
+  border: 1px solid var(--white-color);
+  font-weight: 600;
+  border-radius: 20px;
+  height: 40px;
+  background-color: #e3f829;
+}
+.contact-header a {
+  color: var(--blk-color);
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.contact-header a:hover {
+  text-decoration: underline;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+}
+/* .circle-img {
+  position: absolute;
+  right: 0; */
+
+.hero-section .container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 150px 0 280px 0;
+}
+
+.img-hero {
+  position: absolute;
+  right: 50px;
+}
+.hero-text h1 {
+  font-size: 66px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+.hero-text span {
+  font-weight: 600;
+}
+.hero-text p {
+  font-size: 24px;
+  margin-top: -50px;
+}
+.hero-btn {
+  padding: 10px 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: #dae952;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.menu-cards-section {
+  background-image: url(/images/frame-menu.jpg);
+}
+.menu-cards-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-cards {
+  display: flex;
+  gap: 30px;
+  padding: 0 20px 60px;
+}
+
+.menu-cards-section span {
+  color: #dae952;
+  font-size: 28px;
+  font-weight: 600;
+}
+.menu-cards-text {
+  padding: 30px 0;
+  text-align: center;
+}
+.menu-cards-text h3 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.menu-cards-text h5 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.menu-card {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 5px;
+  border-radius: 5px 50px 5px;
+  position: relative;
+}
+.menu-card h4 {
+  font-size: 18px;
+  text-align: center;
+}
+.menu-card p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+.menu-card__item {
+  margin-top: 50px;
+}
+.preis-img {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.about-us-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-text {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-us-text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: -40px;
+  line-height: 50px;
+  text-align: center;
+}
+.about-us-text span {
+  color: #dae952;
+  font-size: 38px;
+}
+.about-us-text p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+}
+.btn-about-us {
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  background-color: #dae952;
+  border: none;
+  text-align: center;
+  margin-top: 30px;
+}
+.our-chef-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.our-chef-text {
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0 150px;
+}
+.our-chef-text p {
+  text-align: center;
+  font-size: 24px;
+  line-height: 28px;
+}
+.our-chef-text h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+}
+.our-chef-text span {
+  color: #dae952;
+}
+.team-cards-section {
+  background-image: url(/images/frame-menu.jpg);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.team-cards-section h2 {
+  font-size: 36px;
+}
+.team-cards-section span {
+  color: #dae952;
+}
+.team-cards-section p {
+  font-size: 20px;
+  line-height: 24px;
+}
+.team-cards {
+  display: flex;
+  gap: 50px;
+  padding: 50px 80px;
+}
+.team-card {
+  background-color: var(--white-color);
+  border-radius: 50px 0px 50px;
+  padding: 30px 40px;
+  box-shadow: 1px 4px 6px 0px #dae952;
+}
+.team-card p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding-top: 30px;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.promo-code-section {
+  background-image: url(/images/jason-leung-poI7DelFiVA-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 100px;
+  margin-top: 40px;
+  border-radius: 50px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.promo-code-section h2 {
+  color: #fff;
+  font-size: 46px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 60px 0 40px;
+  font-weight: bold;
+}
+.promo-code-section input {
+  width: 90%;
+  padding: 15px 10px 15px 15px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+button:hover {
+  background-color: #e6f371;
+  box-shadow: 1px 4px 6px 0px #dae952;
+}
+.promo-code-btn {
+  position: absolute;
+  right: 190px;
+  bottom: 104px;
+  background-color: #dae952;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 40px;
+  font-size: 19px;
+}
