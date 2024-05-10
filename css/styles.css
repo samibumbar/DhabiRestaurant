@@ -201,6 +201,7 @@ body {
 .about-us-section {
   display: flex;
   flex-direction: row;
+  gap: 100px;
   align-items: center;
   justify-content: center;
 }
@@ -227,6 +228,9 @@ body {
   text-align: center;
   line-height: 24px;
 }
+.about-us-image {
+  margin-left: -60px;
+}
 .btn-about-us {
   padding: 10px;
   border-radius: 20px;
@@ -242,7 +246,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 100px;
 }
 .our-chef-text {
   display: flex;
