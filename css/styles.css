@@ -24,7 +24,7 @@ body {
 .hero-wrapper {
   width: 1600px;
   max-width: 100%;
-  background-image: url(/images/rechtanlage.jpg);
+  background-image: url(../images/rechtanlage.jpg);
   background-repeat: no-repeat;
   background-position: right;
   margin-top: 0;
@@ -137,7 +137,7 @@ body {
   margin-top: 30px;
 }
 .menu-cards-section {
-  background-image: url(/images/frame-menu.jpg);
+  background-image: url(../images/frame-menu.jpg);
 }
 .menu-cards-section .container {
   display: flex;
@@ -263,7 +263,7 @@ body {
   color: #dae952;
 }
 .team-cards-section {
-  background-image: url(/images/frame-menu.jpg);
+  background-image: url(../images/frame-menu.jpg);
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -312,7 +312,7 @@ body {
   position: relative;
 }
 .promo-code-section {
-  background-image: url(/images/jason-leung-poI7DelFiVA-unsplash\ 1.png);
+  background-image: url(../images/jason-leung-poI7DelFiVA-unsplash\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 100px;
